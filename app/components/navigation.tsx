@@ -8,11 +8,10 @@ type Props = {
 const Navigation = (props: Props) => {
     const navigationData = [
         { name: 'Home', href: '/' },
-        { name: 'About Us', href: '/about' },
-        { name: 'Courses', href: '/courses' },
-        { name: 'Educational Insights', href: '/educational-insights' },
-        { name: 'Curriculum Alignment', href: '/curriculum-alignment' },
-        { name: 'Contact Us', href: '/contact' },
+        { name: 'About Us', href: '/' },
+        { name: 'Courses', href: '/' },
+        { name: 'Educational Insights', href: '/' },
+        { name: 'Contact Us', href: '/' },
     ];
     return (
         <div className='flex gap-5'>{navigationData.map((item) => (
