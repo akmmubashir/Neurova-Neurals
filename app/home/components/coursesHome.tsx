@@ -21,7 +21,7 @@ const CoursesHome = () => {
                     </p>
                 </div>
             </div>
-            <div className='-mt-25 grid grid-cols-12 gap-5 max-lg:gap-8 px-25 max-xl:px-10 max-lg:px-5'>
+            <div className='-mt-25 grid grid-cols-12 gap-5 max-lg:gap-[40px_0] px-25 max-xl:px-10 max-lg:px-5'>
                 {courses.map((item) => (
                     <div key={item.id} className="col-span-4 max-lg:col-span-full bg-white shadow-2xl rounded-2xl">
                         <div>
