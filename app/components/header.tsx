@@ -17,7 +17,7 @@ const Header = () => {
 
     return (
         <div className={`'flex justify-center fixed w-full left-0 top-0 z-50 ${scrolled ? 'bg-white shadow-2xl' : 'bg-transparent'} `}>
-            <div className={`p-[30px_0px] max-xl:p-[30px_40px] max-md:p-[30px_20px] max-w-300 mx-auto flex items-center justify-between`}>
+            <div className={`p-[30px_0px] max-xl:p-[30px_40px] max-md:p-[20px_20px] max-w-300 mx-auto flex items-center justify-between`}>
                 <Logo color={scrolled ? 'black' : 'white'} />
                 <Navigation type={scrolled ? 'scroll' : 'transparent'} />
                 <button
