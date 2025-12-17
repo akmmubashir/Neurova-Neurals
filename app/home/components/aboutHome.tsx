@@ -13,7 +13,7 @@ const AboutHome = () => {
                 teachers, and students to embrace change, cultivate creativity, and excel in an
                 increasingly technology-driven world.
             </p>
-            <div className='absolute top-10 max-md:top-8 right-1/8  max-xl:right-4 max-md:-right-8 w-25'>
+            <div className='absolute top-10 max-md:-top-6 right-1/8  max-xl:right-4 max-md:-right-8 w-25'>
                 <Image src="/assets/common/vector1.png" alt="About Neurova Neurals" width={600} height={400} className='w-full h-auto' />
             </div>
             <div className='absolute -bottom-2.5 max-xl:-bottom-12 left-1/8 w-25'>
