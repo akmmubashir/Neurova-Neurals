@@ -4,6 +4,7 @@ import Header from '../components/header'
 import AboutHome from './components/aboutHome'
 import CoursesHome from './components/coursesHome'
 import Footer from '../components/footer'
+import WhyChooseUs from '../components/whyChooseUs'
 
 // type Props = {}
 
@@ -15,6 +16,7 @@ const HomePage = () => {
             <HeroLanding />
             <AboutHome />
             <CoursesHome />
+            <WhyChooseUs />
             <Footer />
         </div>
     )

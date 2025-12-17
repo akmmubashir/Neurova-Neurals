@@ -20,12 +20,15 @@ const HeroLanding = () => {
                             <h1 className='text-white text-[46px] max-2xl:text-[40px] max-xl:text-[36px] max-lg:text-[32px] max-md:text-[28px] font-semibold'>
                                 Committed To Learn Excellence In Education
                             </h1>
-                            <p className='text-white text-[16px] max-lg:text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quae provident, cum, voluptate quos beatae maiores neque voluptatem enim ut vitae aspernatur! Maiores illum deserunt, id debitis laudantium voluptas adipisci.</p>
+                            <p className='text-white text-[16px] max-lg:text-[14px]'>Innovative, age-appropriate tech courses designed to help kids learn, create, and thrive in a digital-first world.</p>
                         </div>
 
-                        <div className='mt-7.5'>
-                            <Link href={"/"} className='cursor-pointer bg-white/15 text-white hover:bg-white/25 px-6 py-3 rounded-md mt-6 font-medium shadow-2xl hover:scale-105 transition-all duration-300'>
-                                Learn More
+                        <div className='mt-6 flex flex-wrap gap-3'>
+                            <Link href={"/"} className='cursor-pointer text-[16px] max-lg:text-[14px] bg-white/15 text-white hover:bg-white/25 px-6 py-3 rounded-md font-medium shadow-2xl hover:scale-105 transition-all duration-300'>
+                                Explore Courses
+                            </Link>
+                            <Link href={"/"} className='cursor-pointer text-[16px] max-lg:text-[14px] bg-white text-[#2a2a2a] hover:bg-white/90 px-6 py-3 rounded-md font-medium shadow-2xl hover:scale-105 transition-all duration-300'>
+                                Join Now
                             </Link>
                         </div>
                     </div>

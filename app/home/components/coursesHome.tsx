@@ -5,7 +5,7 @@ import React from 'react'
 
 const CoursesHome = () => {
     return (
-        <div className='max-w-300 mx-auto m-[0_0_80px] max-xl:m-[0_40px_60px] max-lg:m-[0_20px_40px]'>
+        <div className='max-w-300 mx-auto m-[0_0_60px] max-xl:m-[0_40px_60px] max-lg:m-[0_20px_40px]'>
             <div
                 className='p-[60px_100px_160px] max-xl:p-[60px_40px_140px] max-lg:p-[50px_20px_120px] flex flex-col items-center justify-center gap-10 max-lg:gap-[20px_0] mt-10 rounded-3xl'
                 style={{
@@ -16,12 +16,12 @@ const CoursesHome = () => {
                 }}
             >
                 <div className='flex flex-col items-center gap-5 max-lg:gap-[10px_0]'>
-                    <h2 className='text-white font-semibold text-[46px] max-2xl:text-[40px] max-xl:text-[36px] max-lg:text-[32px] max-md:text-[28px] text-center'>Explore Our Courses</h2>
+                    <h2 className='text-white font-semibold text-[46px] max-2xl:text-[40px] max-xl:text-[36px] max-lg:text-[32px] max-md:text-[28px] text-center'>Explore Our Learning Programs</h2>
                     <p className='text-white text-[16px] max-lg:text-[14px] text-center'>Explore our diverse range of courses designed to empower learners of all ages. From foundational subjects to advanced topics, our curriculum is crafted to foster knowledge, creativity, and critical thinking. Join us on a journey of discovery and skill-building that prepares you for the future.
                     </p>
                 </div>
             </div>
-            <div className='-mt-25 grid grid-cols-12 gap-5 max-lg:gap-[40px_0] px-25 max-xl:px-10 max-lg:px-5'>
+            <div className='-mt-25 grid grid-cols-12 gap-5 max-lg:gap-[30px_0] px-25 max-xl:px-10 max-lg:px-5'>
                 {courses.map((item) => (
                     <div key={item.id} className="col-span-4 max-lg:col-span-full bg-white shadow-2xl rounded-2xl">
                         <div>
@@ -45,7 +45,7 @@ const CoursesHome = () => {
                                 {item.content}
                             </p>
                             <div className='flex'>
-                            <Link href="#" className='text-[#2a2a2a] hover:text-[#EA4434] font-medium underline underline-offset-4'> 
+                            <Link href="#" className='text-[16px] max-lg:text-[14px] text-[#2a2a2a] hover:text-[#EA4434] font-medium underline underline-offset-4'> 
                                     Learn More 
                             </Link>
                             </div>
@@ -54,7 +54,7 @@ const CoursesHome = () => {
                 ))}
             </div>
             <div className='flex justify-center mt-10'>
-                <button className='cursor-pointer uppercase text-[#2a2a2a] hover:text-[#EA4434] font-medium underline underline-offset-4 hover:scale-105 transition-all duration-300'>
+                <button className='cursor-pointer uppercase text-[16px] max-lg:text-[14px] text-[#2a2a2a] hover:text-[#EA4434] font-medium underline underline-offset-4 hover:scale-105 transition-all duration-300'>
                     View All Courses
                 </button>
             </div>
