@@ -7,7 +7,7 @@ const CoursesHome = () => {
     return (
         <div className='max-w-300 mx-auto m-[0_0_80px] max-xl:m-[0_40px_60px] max-lg:m-[0_20px_40px]'>
             <div
-                className='p-[60px_100px_160px] max-xl:p-[60px_40px_140px] max-lg:p-[50px_20px_120px] flex flex-col items-center justify-center gap-10 mt-10 rounded-3xl'
+                className='p-[60px_100px_160px] max-xl:p-[60px_40px_140px] max-lg:p-[50px_20px_120px] flex flex-col items-center justify-center gap-10 max-lg:gap-[20px_0] mt-10 rounded-3xl'
                 style={{
                     backgroundImage: 'url(/assets/common/courseBg.png)',
                     backgroundRepeat: 'no-repeat',
@@ -15,7 +15,7 @@ const CoursesHome = () => {
                     backgroundPosition: 'center',
                 }}
             >
-                <div className='flex flex-col items-center gap-5'>
+                <div className='flex flex-col items-center gap-5 max-lg:gap-[10px_0]'>
                     <h2 className='text-white font-semibold text-[46px] max-2xl:text-[40px] max-xl:text-[36px] max-lg:text-[32px] max-md:text-[28px] text-center'>Explore Our Courses</h2>
                     <p className='text-white text-[16px] max-lg:text-[14px] text-center'>Explore our diverse range of courses designed to empower learners of all ages. From foundational subjects to advanced topics, our curriculum is crafted to foster knowledge, creativity, and critical thinking. Join us on a journey of discovery and skill-building that prepares you for the future.
                     </p>
@@ -33,7 +33,7 @@ const CoursesHome = () => {
                                 className='w-full h-auto rounded-t-2xl'
                             />
                         </div>
-                        <div className='flex flex-col gap-2 p-5'>
+                        <div className='flex flex-col gap-2 max-lg:gap-[8px_0] p-5'>
                             <h6 className='text-[20px] font-semibold text-[#2a2a2a]'>{item.title}</h6>
                             <div>
                                 <p className='text-[#EA4434] font-medium text-[16px]'>

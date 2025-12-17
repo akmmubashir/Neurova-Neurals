@@ -4,7 +4,7 @@ import React from 'react'
 
 const AboutHome = () => {
     return (
-        <div className='relative max-w-300 mx-auto bg-white p-[80px_0px] max-xl:p-[60px_40px] max-lg:p-[60px_20px_60px] flex flex-col items-center justify-center gap-5'>
+        <div className='relative max-w-300 mx-auto bg-white p-[80px_0px] max-xl:p-[60px_40px] max-lg:p-[60px_20px_60px] flex flex-col items-center justify-center gap-5 max-lg:gap-[10px_0]'>
             <h2 className='text-[#2a2a2a] font-medium text-[46px] max-2xl:text-[40px] max-xl:text-[36px] max-lg:text-[32px] max-md:text-[28px]'>About <span className='text-[#EA4434]'>Neurova Neurals</span></h2>
             <p className='text-[#2a2a2a] w-full text-center text-[16px] max-lg:text-[14px]'>Neurova Neurals Private Limited is an innovation-driven EdTech organization with over 25
                 years of dedicated experience in redefining how learning connects with modern
