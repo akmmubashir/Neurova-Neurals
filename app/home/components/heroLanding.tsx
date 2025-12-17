@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const HeroLanding = () => {
     return (
@@ -18,9 +19,10 @@ const HeroLanding = () => {
                         <h1 className='text-[46px] max-2xl:text-[40px] max-xl:text-[36px] font-semibold'>
                             Committed To Learn Excellence In Education
                         </h1>
-                        <button className='cursor-pointer bg-white/15 text-white hover:bg-white/25 px-6 py-3 rounded-md mt-6 font-medium shadow-2xl hover:scale-105 transition-all duration-300'>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quae provident, cum, voluptate quos beatae maiores neque voluptatem enim ut vitae aspernatur! Maiores illum deserunt, id debitis laudantium voluptas adipisci.</p>
+                        <Link href={"/"} className='cursor-pointer bg-white/15 text-white hover:bg-white/25 px-6 py-3 rounded-md mt-6 font-medium shadow-2xl hover:scale-105 transition-all duration-300'>
                             Learn More
-                        </button>
+                        </Link>
                     </div>
                 </div>
                 <div className='col-span-6 flex flex-col justify-center items-start z-10'>

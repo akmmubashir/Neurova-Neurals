@@ -44,9 +44,11 @@ const CoursesHome = () => {
                             <p className='text-[#3a3a3a] text-[16px]'>
                                 {item.content}
                             </p>
+                            <div className='flex'>
                             <Link href="#" className='text-[#2a2a2a] hover:text-[#EA4434] font-medium underline underline-offset-4'> 
                                     Learn More 
                             </Link>
+                            </div>
                         </div>
                     </div>
                 ))}
