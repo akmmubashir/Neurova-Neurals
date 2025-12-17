@@ -24,11 +24,11 @@ const HeroLanding = () => {
                         </div>
 
                         <div className='mt-6 flex flex-wrap gap-3'>
+                            <Link href={"/"} className='cursor-pointer text-[16px] max-lg:text-[14px] bg-white text-[#2a2a2a] hover:bg-white/90 px-6 py-3 rounded-md font-semibold shadow-2xl hover:scale-105 transition-all duration-300'>
+                                Join Now
+                            </Link>
                             <Link href={"/"} className='cursor-pointer text-[16px] max-lg:text-[14px] bg-white/15 text-white hover:bg-white/25 px-6 py-3 rounded-md font-medium shadow-2xl hover:scale-105 transition-all duration-300'>
                                 Explore Courses
-                            </Link>
-                            <Link href={"/"} className='cursor-pointer text-[16px] max-lg:text-[14px] bg-white text-[#2a2a2a] hover:bg-white/90 px-6 py-3 rounded-md font-medium shadow-2xl hover:scale-105 transition-all duration-300'>
-                                Join Now
                             </Link>
                         </div>
                     </div>
