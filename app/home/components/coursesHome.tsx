@@ -37,7 +37,7 @@ const CoursesHome = () => {
                             <h6 className='text-[20px] font-semibold text-[#2a2a2a]'>{item.title}</h6>
                             <div>
                                 <p className='text-[#EA4434] font-medium text-[16px]'>
-                                    Age: 
+                                    Age:
                                     <span className='text-[#2a2a2a] text-[16px] max-lg:text-[14px]'> {item.ageGroup}</span>
                                 </p>
                             </div>
@@ -45,9 +45,9 @@ const CoursesHome = () => {
                                 {item.content}
                             </p>
                             <div className='flex'>
-                            <Link href="#" className='text-[16px] max-lg:text-[14px] text-[#2a2a2a] hover:text-[#EA4434] font-medium underline underline-offset-4'> 
-                                    Learn More 
-                            </Link>
+                                <Link href="#" className='text-[16px] max-lg:text-[14px] text-[#2a2a2a] hover:text-[#EA4434] font-medium underline underline-offset-4'>
+                                    Learn More
+                                </Link>
                             </div>
                         </div>
                     </div>

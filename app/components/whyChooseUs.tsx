@@ -6,6 +6,7 @@ const WhyChooseUs = () => {
     return (
         <div className='max-w-300 mx-auto p-[0_0_80px] max-xl:p-[0_60px_40px] max-lg:p-[0_20px_40px] grid grid-cols-12 items-center gap-10 max-lg:gap-[30px_0]'>
             <div className='col-span-6 max-lg:col-span-full'>
+<Image src={"/assets/common/whyChooseUs.png"} alt='' width={1000} height={500} className='mb-5 w-5/6' />
                 <h2 className='mb-2 text-[#2a2a2a] font-semibold leading-[1.2] text-[46px] max-2xl:text-[40px] max-xl:text-[36px] max-lg:text-[32px] max-md:text-[28px]'>Where Education Meets <span className="text-[#EA4434]">
                     Innovation
                 </span>
