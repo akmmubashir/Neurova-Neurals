@@ -10,7 +10,7 @@ import Footer from '../components/footer'
 // const HomePage = (props: Props) => {
 const HomePage = () => {
     return (
-        <div className='bg-white min-h-screen'>
+        <div className='bg-white min-h-screen overflow-hidden'>
             <Header />
             <HeroLanding />
             <AboutHome />
