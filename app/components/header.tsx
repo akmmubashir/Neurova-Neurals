@@ -17,11 +17,11 @@ const Header = () => {
 
     return (
         <div className={`'flex justify-center fixed w-full left-0 top-0 z-50 ${scrolled ? 'bg-white shadow-2xl' : 'bg-transparent'} `}>
-            <div className={`p-[30px_0px] max-w-300 mx-auto flex items-center justify-between`}>
+            <div className={`p-[30px_0px] max-xl:p-[30px_40px] max-md:p-[30px_20px] max-w-300 mx-auto flex items-center justify-between`}>
                 <Logo color={scrolled ? 'black' : 'white'} />
                 <Navigation type={scrolled ? 'scroll' : 'transparent'} />
                 <button
-                    className='cursor-pointer p-[10px_20px] rounded-[5px] bg-linear-to-r from-[#952A20] to-[#EA4434] hover:from-white hover:to-white text-white hover:text-[#160A0A] hover:scale-105 transition-all duration-300 font-medium shadow-2xl'
+                    className='cursor-pointer text-[16px] max-md:text-[14px] p-[10px_20px] max-md:p-[8px_12px] rounded-[5px] bg-linear-to-r from-[#952A20] to-[#EA4434] hover:from-white hover:to-white text-white hover:text-[#160A0A] hover:scale-105 transition-all duration-300 font-medium shadow-2xl'
                 >
                     Login/Register
                 </button>

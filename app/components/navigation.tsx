@@ -14,7 +14,7 @@ const Navigation = (props: Props) => {
         { name: 'Contact Us', href: '/' },
     ];
     return (
-        <div className='flex gap-5'>{navigationData.map((item) => (
+        <div className='flex gap-5 max-xl:hidden'>{navigationData.map((item) => (
             <Link key={item.name} href={item.href} className={`text-[16px] ${props.type === "transparent" ? "text-white hover:text-[#EA4434]" : "text-[#160A0A] hover:text-[#EA4434]"} ${props.type === "scroll" ? "font-medium" : ""}`}>{item.name}</Link>
         ))}</div>
     )
