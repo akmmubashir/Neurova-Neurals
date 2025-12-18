@@ -29,14 +29,24 @@ export const metadata: Metadata = {
     url: "https://www.neurovaneurals.com",
     siteName: "Neurova Neurals",
     type: "website",
-    locale: "en_US"
+    locale: "en_US",
+    images: [
+      {
+        url: "/assets/course/course3.png",
+        width: 1200,
+        height: 630,
+        alt: "Neurova Neurals Private Limited - Future-Ready EdTech for Kids & Schools",
+      },
+    ],
   },
 
   twitter: {
     card: "summary_large_image",
     title: "Neurova Neurals Private Limited | Future-Ready EdTech for Kids & Schools",
     description:
-      "Empowering young minds with coding, robotics, AI, and STEM education."
+      "Empowering young minds with coding, robotics, AI, and STEM education.",
+    images: ["/assets/common/home.webp"],
+
   },
 
   robots: {
