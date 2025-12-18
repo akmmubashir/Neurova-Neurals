@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     title: "Neurova Neurals Private Limited | Future-Ready EdTech for Kids & Schools",
     description:
       "Empowering young minds with coding, robotics, AI, and STEM education.",
-    images: ["/assets/common/home.webp"],
+    images: ["/assets/course/course3.png"],
 
   },
 
