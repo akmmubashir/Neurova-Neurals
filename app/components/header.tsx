@@ -23,7 +23,7 @@ const Header = () => {
                 <button
                     className='cursor-pointer text-[16px] max-md:text-[14px] p-[10px_20px] max-md:p-[8px_12px] rounded-[5px] bg-linear-to-r from-[#952A20] to-[#EA4434] hover:from-white hover:to-white text-white hover:text-[#160A0A] hover:scale-105 transition-all duration-300 font-medium shadow-2xl'
                 >
-                    Login/Register
+                    Join Now
                 </button>
             </div>
         </div>
