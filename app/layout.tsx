@@ -8,6 +8,10 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://neurova-neurals.vercel.app"),
+  alternates: {
+    canonical: "https://neurova-neurals.vercel.app",
+  },
   title: "Neurova Neurals Private Limited | Future-Ready EdTech for Kids & Schools",
   description: "Neurova Neurals Private Limited is an innovation-driven EdTech company empowering kids and schools with coding, robotics, AI, and STEM learning programs designed for the future.",
   keywords: [
@@ -17,7 +21,6 @@ export const metadata: Metadata = {
   creator: "Neurova Neurals Private Limited",
   publisher: "Neurova Neurals Private Limited",
 
-  metadataBase: new URL("https://www.neurovaneurals.com"),
 
   openGraph: {
     title: "Neurova Neurals Private Limited | Future-Ready EdTech for Kids & Schools",
